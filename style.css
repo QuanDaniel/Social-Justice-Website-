@@ -129,8 +129,12 @@ nav a:hover {
   paragraphs and links
 */
 
-.right-align{
-  text-align: left;
+.header-right p
+{
+  background-color: white;
+  font-size: larger;
+  color:#0caadf;
+  font-weight: bold;
 }
 .h1 {
   color:white;
@@ -186,14 +190,14 @@ a {
 
 .image-box {
   flex: 1 0 33%;
-  max-width: 400px;
+  max-width: 530px;
   margin: 10px;
   text-align: center;
   padding-bottom: 20px;
 }
 
 .image-box img {
-  max-width:300px;
+  max-width:500px;
   height: auto;
 }
 
