@@ -1,0 +1,401 @@
+/* Style Rules for Body */
+
+body {
+
+    /* Add a background color or image */
+    background-color: #0caadf;
+
+    /* Customize the font, size, and color for text*/
+    font-family: Arial;
+    font-size: 16px;
+    color: black;
+
+    /* Adjust the padding and margins */
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 300px;
+
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+
+}
+
+/* Style Rules for Body */
+
+/* Navigation Bar */
+nav {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  width:100%
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: white;
+  color: #333;
+}
+
+.dark-mode{
+  background-color: black;
+}
+
+/* Navigation Bar */
+
+
+/* Header styles */
+.header-container {
+  display: flex;
+  flex-direction: row; /* Direction of images */
+  justify-content: space-between; /* Horizontal alignment */
+  background-image:url("images/Money-photo.png");
+  background-repeat:no-repeat;
+  background-size: cover;
+  align-items: center; /* Vertical alignment */
+  background-color:transparent;
+  padding: 20px 0;
+  margin-top: 10px; 
+}
+
+/* Header left styles */
+.header-left {
+  width: 35%;
+  margin-right: 50px;
+}
+
+/* Header right styles */
+.header-right {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align:center;
+}
+
+/* Header button styles */
+.button-group button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 50px/10px;
+  
+}
+
+.button-group button:last-child {
+  margin-right: 0;
+}
+
+/* Dark Mode Toggle */
+#togglemode {
+  background-color: black;
+  color: #00afff;
+}
+/* Dark Mode Toggle */
+
+/*
+  Style Text: Add style rules for any headings (h1-6),
+  paragraphs and links
+*/
+
+.right-align{
+  text-align: left;
+}
+.h1 {
+  color:white;
+  text-align:center;
+}
+
+h2 {
+  color:#e6e6e6;
+  text-align: center; 
+}
+
+h3 {
+  color:white;
+  text-align:center; 
+}
+h4
+{
+  color:white;
+  text-align:center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+p {
+  color:white;
+}
+
+a {
+  color:white; 
+}
+/*
+  Style Text: Add style rules for any headings (h1-6),
+  paragraphs and links
+*/
+
+/* Text for about paragraph */
+#p-about
+{
+  font-size: 30px;
+  font-weight: medium;
+  text-align: center;
+  color: white;
+}
+/* Text for about paragraph */
+
+
+/* Image Flex Box */
+.image-row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.image-box {
+  flex: 1 0 33%;
+  max-width: 400px;
+  margin: 10px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.image-box img {
+  max-width:300px;
+  height: auto;
+}
+
+
+.image-box p {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: #000000;
+  font-size: 24px;
+}
+
+#impact
+{
+  color:blue
+}
+#box1 h2, #box1 p
+{
+ color:red;
+}
+
+#box2 h2, #box2 p
+{
+  color:#3ae43a;
+}
+
+#box3 h2, #box3 p
+{
+  color:#a749a7;
+}
+
+/* Image Flex Box */
+
+
+/* Footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333333;
+  padding: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  
+}
+
+a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+}
+/* Footer */
+
+
+/* Petition */ 
+.petition-head
+{
+  text-align:center;
+  margin-left: 10px;
+}
+.petition-container
+{
+  flex-wrap:nowrap;
+  display:flex; 
+  flex-direction: row;
+  gap:50px;
+  width: 100;
+  padding-bottom: 70px;
+}
+
+.petition-para 
+{
+  font-size: 20px;
+  width: 55%;
+  padding-right: 10px;
+  line-height: 25px;
+}
+
+#sign-petition label
+{
+  color: white;
+}
+
+.signatures
+{
+  padding-top: 15px;
+  font-size: 25px;
+  width: 45%;
+  padding-right: 10px; 
+
+}
+
+/* Petition Error */
+.error 
+{  
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  background:pink;
+}
+/* Petition Error */
+
+/* Petition */ 
+
+/* Links */
+a:link {
+   color: white;
+   text-decoration: none;
+   cursor: pointer;
+}
+a:visited {
+   color: purple;
+   text-decoration: none;
+   cursor: pointer;
+}
+a:hover {
+   color: #00b3ff;
+   text-decoration: underline;
+   cursor: pointer;
+}
+a:active {
+   color: green;
+   text-decoration: none;
+   cursor: pointer;
+}
+/* Links */
+
+.revealable {
+  position: relative;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 2s ease; 
+}
+
+/*Modal*/
+
+/* reveal elements with the active class */
+.revealable.active {
+  opacity: 1;
+  transform:(0px);
+}
+/* the modal that covers the background and prevents user interactions */
+.modal {
+  display: none; /* hides the modal from view by default*/
+  position: fixed; /* keeps the modal in one place */
+  z-index: 2; /* positions the modal on top of all other elements on the screen */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0,0,0,0.4); /* 40% opacity black - other elements can still be seen */
+  flex-direction: column; /* these flexbox rules center the content on the screen */
+  align-items: center;
+  justify-content: center;
+}
+
+/* box that contains all the content and images */
+.modal-content {
+  background-color: #00b3ff; /* update the colors and font sizes as you like */
+  color: black;
+  text-align: center;
+  font-size: 3rem;
+  display: flex; /* adds flexbox to center all items */
+  justify-content: center;
+  align-items: center;
+}
+.modal img
+{
+ height:300px;
+ width:200px;
+}
+#thanks-modal-content {
+  width: 20rem; /* sets a default width for the text container */
+}
+
+#modal-text-container {
+  display: flex; /* adds flexbox to center the text and buttons (stretch feature) */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Modal*/
