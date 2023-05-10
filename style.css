@@ -142,12 +142,14 @@ nav a:hover {
 }
 
 h2 {
-  color:#e6e6e6;
+  color:brown;
   text-align: center; 
 }
 
 h3 {
-  color:white;
+  color: green;
+  font-size: 30px;
+  font-weight: bold;
   text-align:center; 
 }
 h4
@@ -157,6 +159,7 @@ h4
   font-weight: bold;
   font-size: 30px;
 }
+
 
 p {
   color:white;
@@ -173,10 +176,11 @@ a {
 /* Text for about paragraph */
 #p-about
 {
-  font-size: 30px;
-  font-weight: medium;
+  font-size: 40px;
+  font-weight: bold;
   text-align: center;
-  color: white;
+  color:gold;
+ 
 }
 /* Text for about paragraph */
 
@@ -190,7 +194,7 @@ a {
 
 .image-box {
   flex: 1 0 33%;
-  max-width: 530px;
+  max-width: 600px;
   margin: 10px;
   text-align: center;
   padding-bottom: 20px;
@@ -203,7 +207,7 @@ a {
 
 
 .image-box p {
-  font-size: 16px;
+  font-size: 28px;
   font-family: Arial, sans-serif;
   font-weight: bold;
   color: white;
@@ -292,7 +296,7 @@ a {
 
 .petition-para 
 {
-  font-size: 20px;
+  font-size: 25px;
   width: 55%;
   padding-right: 10px;
   line-height: 25px;
